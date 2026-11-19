@@ -7,8 +7,8 @@ It notably handles ~80 file extensions in one pass and tolerates Office/EPUB bin
 
 What to tweak in-code:
 
-(-) NAMES — path to your curated names dictionary (one name per line, case-insensitive); output quality depends entirely on this file; I highly recommend "https://github.com/FinNLP/humannames/blob/master/list.txt"
+• NAMES — path to your curated names dictionary (one name per line, case-insensitive); output quality depends entirely on this file; I highly recommend "https://github.com/FinNLP/humannames/blob/master/list.txt"
 
-(-) RAW / COMM_PRE / COMM / ARCHIVE / ARCHIVE_RAW — intermediate and final output filenames; safe to leave as-is unless you're merging multiple runs
+• RAW / COMM_PRE / COMM / ARCHIVE / ARCHIVE_RAW — intermediate and final output filenames; safe to leave as-is unless you're merging multiple runs
 
-(-) minlen / maxlen (in the gawk -v call) — substring length bounds for name matching (default 3–25); lower minlen for more hits, raise for fewer false positives
+• minlen / maxlen (in the gawk -v call) — substring length bounds for name matching (default 3–25); lower minlen for more hits, raise for fewer false positives
