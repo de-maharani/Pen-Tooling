@@ -8,14 +8,15 @@ Rather than low-level code, these proudly orchestrate workflows leveraging exist
 
 | Tool | Language | Description |
 | :--- | :--- | :--- |
-| [**Downy**](./Downy/) | Python | Threaded HTTP file receiver for post-exploitation uploads |
-| [**NameFile**](./NameFile/) | Bash | Converts name lists into Kerberos username wordlists |
-| [**FileNamer**](./FileNamer/) | Bash | Extracts names and comments from local files for wordlists |
-| [**WebHead**](./WebHead/) | Bash | Mines live URLs for names and emails for spraying |
-| [**Paramecia**](./Paramecia/) | Bash | Multi-stage web parameter discovery and hidden-param fuzzer |
-| [**CRONY**](./CRONY/) | Bash | Finds non-default cron scripts and writable referenced paths |
-| [**GTFObuddy**](./GTFObuddy/) | Bash | Cross-references SUID and capability findings against GTFOBins |
-| [**Unquoth**](./Unquoth/) | PowerShell | Tests writability up the tree of an unquoted service path |
+| [**Downy**](./Downy/) | Python | a threaded HTTP file receiver for downloading files via target-push |
+| [**CorP**](./CorP/) | CMD & PowerShell | returns whether the Windows target is using CMD or Powershell |
+| [**NameFile**](./NameFile/) | Bash | extracts names and comments from all possible readable local files |
+| [**FileNamer**](./FileNamer/) | Bash | extracts names and comments from local files for wordlists |
+| [**WebHead**](./WebHead/) | Bash | mines a list of live URLs for names and emails to spray with |
+| [**Paramecia**](./Paramecia/) | Bash | a multi-stage web parameter discovery and hidden-param fuzzer |
+| [**CRONY**](./CRONY/) | Bash | finds non-default cron scripts and checks inside for writable referenced paths |
+| [**GTFObuddy**](./GTFObuddy/) | Bash | quickly and easily cross-references SUID and capability findings against GTFOBins |
+| [**Unquoth**](./Unquoth/) | PowerShell | tests writability for the entire tree of an unquoted service path |
 
 ## 💡 Usage
 Click into any tool's folder to view its specific documentation, required dependencies, and configuration steps. Most tools require little more than standard bash/Python environments.
